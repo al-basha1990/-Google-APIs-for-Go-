@@ -1,7 +1,17 @@
+# Google APIs Client Library for Go
+
+## Getting Started
+
+```shell
 $ go get google.golang.org/api/tasks/v1
 $ go get google.golang.org/api/moderator/v1
 $ go get google.golang.org/api/urlshortener/v1
 ... etc ...
+```
+
+and using:
+
+```go
 package main
 
 import (
@@ -16,3 +26,4 @@ func main() {
         svc, err := urlshortener.NewService(ctx)
         // ...
 }
+```
